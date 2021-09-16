@@ -9,6 +9,12 @@ public class Dictionary {
 
     	public boolean isEmpty(){
     		return true;
-
      }
+    public String getTraduction (String ele){
+    	if(ele.equals("contre")){
+    		return "against";
+    	}else{
+    		return "pour";
+    	}
+    }
 } 
