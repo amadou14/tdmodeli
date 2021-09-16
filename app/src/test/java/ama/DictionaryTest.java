@@ -3,10 +3,12 @@ import org.junit.Before;
 import static org.hamcrest.MatchersAssert.assertThat;
 import static  org.hamcrest.Matchers.equalTo;
   public class DictionaryTest{
-  	DictionaryTest d = Dictionary();
+  	DictionaryTest d =  new Dictionary();
+  	Dictionary();
 	  public void testDictionary(){
 		  assertThat(d.getName(),equalTo("Example"));
   	}	
+  	
   	
   	public void testIsEmpty(){
   		assertThat(d.isEmpty(),equalTo(true));
@@ -15,6 +17,7 @@ import static  org.hamcrest.Matchers.equalTo;
                 d.addTranslation("contre", "against");
                 assertThat(d.getTranslation("contre"), equalsTo("against"));
         }
+
 
 
 
