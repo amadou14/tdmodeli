@@ -1,25 +1,20 @@
-import static org.junit.Assert.*;
-import org.junit.Before;
-import static org.hamcrest.MatchersAssert.assertThat;
-import static  org.hamcrest.Matchers.equalTo;
-  public class DictionaryTest{
-  	DictionaryTest d =  new Dictionary();
-  	Dictionary();
-	  public void testDictionary(){
-		  assertThat(d.getName(),equalTo("Example"));
-  	}	
-  	
-  	
-  	public void testIsEmpty(){
-  		assertThat(d.isEmpty(),equalTo(true));
-  		}
-  		@Test public void testOneTranslation() {
-                d.addTranslation("contre", "against");
-                assertThat(d.getTranslation("contre"), equalsTo("against"));
-        }
+package ama;
+
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.MatcherAssert.assertThat;
+
+public  class DictionaryTest {
+    Dictionary dic = new Dictionary("Example");
+    public void testDictionaryName() {
+        assertThat(dic.getName() ,equalTo("Example"));
+    }
+    public void testDictionaryIsEmpy() {
+        assertThat(dic.isEmpty() ,equalTo("Example"));
+    }
 
 
 
 
+}
 
-  }
+

@@ -7,5 +7,6 @@
 	<classpathentry kind="lib" path="app/build/libs/app.jar"/>
 	<classpathentry kind="lib" path="app/build/tmp/expandedArchives/org.jacoco.agent-0.8.7.jar_3a83c50b4a016f281c4e9f3500d16b55/jacocoagent.jar"/>
 	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="app/build/classes/java/main"/>
 </classpath>
