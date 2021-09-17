@@ -1,2 +1,4 @@
-package ama;public class AllTest {
+package ama;
+
+public class AllTest {
 }

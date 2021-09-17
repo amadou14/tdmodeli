@@ -37,8 +37,7 @@ public class Dictionary {
 		return false;
 	}
 
-	public void addTranslationNew(String ele1, String ele2) {
-	}
+
 }
 
 
